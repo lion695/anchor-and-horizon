@@ -12,6 +12,7 @@ body { padding-top: 100px; }
 
 /* Centered navbar title */
 .nav-title {
+	font-size: 100px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
