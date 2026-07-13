@@ -1,0 +1,75 @@
+.custom-navbar { background-color: #0F172A; }
+
+.custom-navbar .nav-link { color: #FFFFFF; }
+.custom-navbar .navbar-brand span { color: #FFFFFF; }
+
+.btn-signup { background-color: #F59E0B; color: #FFFFFF; border: none; }
+
+.navbar-brand img { max-height: 96px; }
+
+/* Add top padding so page content isn't hidden behind fixed navbar */
+body { padding-top: 100px; }
+
+/* Centered navbar title */
+.nav-title {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	font-weight: 600;
+	pointer-events: none;
+}
+
+/* Hero section */
+.hero-section {
+	/* use the h2 image */
+	background-image: url("../images/h2.png");
+	/* span full width like the navbar and cover the area */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 70vh;
+	width: 100%;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	color: #fff;
+	background-color: #0F172A; /* fallback for letterbox areas */
+}
+.hero-overlay {
+	position: absolute;
+	inset: 0;
+	background: rgba(15, 23, 42, 0.35);
+	z-index: 1;
+}
+.hero-content {
+	position: relative;
+	z-index: 2;
+	max-width: 900px;
+	padding: 1rem;
+}
+.hero-content h1 {
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+.hero-content p {
+	font-size: 1.125rem;
+	margin-bottom: 1rem;
+}
+
+
+@media (max-width: 768px) {
+	.hero-section { height: 50vh; }
+	.hero-content h1 { font-size: 1.4rem; }
+}
+
+@media (max-width: 576px) {
+	/* Slightly smaller title on very small screens to avoid overlap */
+	.nav-title { font-size: 14px; }
+}
+
