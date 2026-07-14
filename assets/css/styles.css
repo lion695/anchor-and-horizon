@@ -5,7 +5,10 @@
 
 .btn-signup { background-color: #F59E0B; color: #FFFFFF; border: none; }
 
-.navbar-brand img { max-height: 96px; }
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
 
 /* Add top padding so page content isn't hidden behind fixed navbar */
 body { padding-top: 100px; }
@@ -61,6 +64,16 @@ body { padding-top: 100px; }
 .hero-content p {
 	font-size: 1.125rem;
 	margin-bottom: 1rem;
+}
+
+/* Service cards */
+.mmm {
+	max-width: 200px;
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 1rem;
+	background-color: rgb(39, 68, 86);
 }
 
 

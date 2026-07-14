@@ -6,8 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3c5ad79d82.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Title -->
     <title>Anchor & Horizon</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -16,8 +27,8 @@
         <div class="container position-relative">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="assets/images/logo.png" alt="Logo" class="me-2">
+                <span class="nav-title fs-5 text-wrap">Anchor & Horizon</span>
             </a>
-            <span class="nav-title fs-5">Anchor & Horizon</span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,15 +53,21 @@
     <!-- Hero Section -->
     <section class="hero-section" role="region" aria-label="Hero">
         <div class="hero-overlay"></div>
-        <div class="hero-content text-center">
-            <h1>Your anchor through life's challenges. Your compass for what's next.</h1>
-            <p>Sign up to our monthly news letter now!</p>
-            <a href="#" class="btn btn-signup btn-lg">Sign Up</a>
+        <div class="container h-100 position-relative">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="hero-content text-center">
+                        <h1>Your anchor through life's challenges. Your compass for what's next.</h1>
+                        <p>Sign up to our monthly news letter now!</p>
+                        <a href="#" class="btn btn-signup btn-lg">Sign Up</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="content-section py-5" role="region" aria-label="Content">
-        <div class="container">
+    <section class="content-section py-5 my-5" role="region" aria-label="Content">
+        <div class="container align-items-center">
             <div class="row">
                 <div class="col-md-6 mb-4 text-start">
                     <h2>About Us</h2>
@@ -67,18 +84,137 @@
                         The Mental Health Foundation states that suicide remains the leading cause of death for men
                         under the age of 50. The latest available figures from the Office for National Statistics detail
                         the male suicide rate at 17.6 deaths per 100,000, with those aged 50 to 54 being at the highest
-                        risk.
+                        risk. It is also the single biggest killer of men under the age of 45 in the UK. This accounts
+                        for more deaths in this demographic than other leading causes like accidents or even cancer.
+                        The high rate of suicide among young men is often attributed to a combination of societal
+                        pressures, the stigma surrounding mental health, and a reluctance to seek professional help or
+                        discuss emotional struggles.
                     </p>
+                    <hr>
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to provide a supportive and inclusive environment where men can find the resources
+                        and guidance they need to navigate the challenges of life. We strive to break down barriers and
+                        reduce the stigma associated with mental health, encouraging open conversations and promoting
+                        well-being.</p>
                 </div>
 
-                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="assets/images/reaching_out.avif" alt="A hand reaching out of the ocean" class="img-fluid rounded shadow-sm">
+                <!-- Image Column -->
+                <div class="col-md-6 mb-4 d-flex align-items-center justify-content-center">
+                    <img src="assets/images/reaching_out.avif" alt="A hand reaching out of the ocean"
+                        class="img-fluid rounded shadow-sm">
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container section py-5 my-5">
+        <div class="row g-4">
+            <div class="col-12 text-center">
+                <h2 class="display-6">Services</h2>
+            </div>
+
+            <!-- Service 1 -->
+            <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
+                <div class="card h-100 w-100 d-flex flex-column">
+                    <!-- Andys Man Club-->
+                    <img src="assets/images/AMC_Awareness-Poster-scaled.webp" class="card-img-top"
+                        alt="Andy's Man Club poster">
+                    <div class="card-body d-flex flex-column flex-grow-1"> <!-- Body expands cleanly -->
+                        <h3 class="card-title sub-heading-color">Andy's Man Club</h3>
+                        <p class="card-text flex-grow-1">
+                            Our mission, put simply, is to prevent other families from going through the heartache and
+                            grief caused by suicide, by encouraging men to speak openly about their issues.
+                            <br>
+                            We aim to achieve this through our Monday night talking groups, and through the power of
+                            awareness, sharing stories and sharing experiences.
+                        </p>
+                    </div>
+                    <div class="card-footer mt-auto">
+                        <a class="mb-0" href="https://andysmanclub.co.uk/" target="_blank"
+                            rel="noopener noreferrer">Visit AMC website</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Men's Minds Matter -->
+            <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
+                <div class="card h-100 w-100 d-flex flex-column">
+                    <img src="assets/images/MMM-logo.svg" class="card-img-top mmm" alt="Men's Minds Matter logo">
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                        <h3 class="card-title sub-heading-color">Men's Minds Matter</h3>
+                        <p class="card-text flex-grow-1">
+                            Our Message
+                            "We're not here to f*ck about": The Men's Minds Matter ethos that drives everything we do.
+                            We're here to save lives, today.
+                            Keeping men healthier, happier & alive since 2009.
+                            We're here because a British man dies of suicide every two hours. We empower people to
+                            navigate life's challenges, so they come out the other side healthier, happier and alive.
+                        </p>
+                    </div>
+                    <div class="card-footer mt-auto">
+                        <a class="mb-0" href="https://www.mensmindsmatter.org/" target="_blank"
+                            rel="noopener noreferrer">Visit Men's Minds Matter website</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fathers Guidance -->
+            <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
+                <div class="card h-100 w-100 d-flex flex-column">
+                    <img src="assets/images/fathersguidance.webp" class="card-img-top" alt="Fathers Guidance logo">
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                        <h3 class="card-title sub-heading-color">Fathers Guidance</h3>
+                        <p class="card-text flex-grow-1">
+                            Fathers Guidance is a U.S.-based 501(c)(3) nonprofit dedicated to supporting fathers
+                            experiencing parental alienation, challenging the stigma surrounding men's mental health,
+                            and promoting self-care.
+
+                            Dr. Matthew Peloquin founded Fathers Guidance to address a critical gap in mental health and
+                            family advocacy: the psychological impact of parental alienation on fathers.
+                        </p>
+                    </div>
+                    <div class="card-footer mt-auto">
+                        <a class="mb-0" href="https://fathersguidance.org/" target="_blank"
+                            rel="noopener noreferrer">Visit Fathers Guidance website</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stand Easy -->
+            <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
+                <div class="card h-100 w-100 d-flex flex-column">
+                    <img src="assets/images/standeasy-01-2.svg" class="card-img-top"
+                        alt="A kids party being held at Boardwalk Games">
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                        <h3 class="card-title sub-heading-color">Stand Easy</h3>
+                        <p class="card-text flex-grow-1">
+                            "They are soldiers, people with dignity and pride, and they need to be treated accordingly.”
+                            - Naji Malak, CEO/Founder & Practitioner.
+
+                            We offer specialised trauma and PTSD acupuncture treatment at the hands of someone with 40
+                            years of experience treating military personnel and civilians, carefully placed needles help
+                            to lift trauma and its subsequent symptoms.
+
+                            Our treatment is designed to respect soldiers and their space; we place no demands on
+                            patients. We believe talking about your trauma is not always necessary, vulnerable people
+                            should not be required to talk about darkness in order to heal.
+
+                            If you are a veteran experiencing PTSD symptoms seek our help today.
+                        </p>
+                    </div>
+                    <div class="card-footer mt-auto">
+                        <a class="mb-0" href="https://standeasy.org.uk/" target="_blank" rel="noopener noreferrer">Visit Stand Easy website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
