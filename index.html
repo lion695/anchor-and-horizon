@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3c5ad79d82.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Title -->
     <title>Anchor & Horizon</title>
 
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -36,37 +38,39 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-lg-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link active" href="index.html" aria-label="Home" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="events.html" aria-label="Events">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html" aria-label="Contact">Contact</a>
                     </li>
                 </ul>
-                <!-- Dont forget to add the sign up button styles -->
-                <a class="btn btn-signup ms-3" href="#">Sign Up</a>
+                <!-- Don't forget to add the sign up button styles -->
+                <a class="btn btn-signup ms-3" href="signup.html" aria-label="Sign Up">Sign Up</a>
             </div>
         </div>
     </nav>
     <!-- Hero Section -->
-    <section class="hero-section" role="region" aria-label="Hero">
+    <section class="hero-section" aria-label="Hero">
+        <img src="assets/images/h2.png" alt="" class="hero-image">
         <div class="hero-overlay"></div>
-        <div class="container h-100 position-relative">
+
+        <div class="container-fluid h-100 position-relative">
             <div class="row h-100 align-items-center justify-content-center">
                 <div class="col-12 col-md-10 col-lg-8">
                     <div class="hero-content text-center">
                         <h1>Your anchor through life's challenges. Your compass for what's next.</h1>
                         <p>Sign up to our monthly news letter now!</p>
-                        <a href="#" class="btn btn-signup btn-lg">Sign Up</a>
+                        <a href="" class="btn btn-signup btn-lg" aria-label="Sign Up">Sign Up</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="content-section py-5 my-5" role="region" aria-label="Content">
+    <section class="content-section py-5 my-5" aria-label="Content">
         <div class="container align-items-center">
             <div class="row">
                 <div class="col-md-6 mb-4 text-start">
@@ -107,112 +111,160 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="container section py-5 my-5">
+    <section id="services" class="container py-5 my-5">
         <div class="row g-4">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center mb-4">
                 <h2 class="display-6">Services</h2>
             </div>
 
-            <!-- Service 1 -->
+            <!-- Andy's Man Club -->
             <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
-                <div class="card h-100 w-100 d-flex flex-column">
-                    <!-- Andys Man Club-->
-                    <img src="assets/images/AMC_Awareness-Poster-scaled.webp" class="card-img-top"
-                        alt="Andy's Man Club poster">
-                    <div class="card-body d-flex flex-column flex-grow-1"> <!-- Body expands cleanly -->
-                        <h3 class="card-title sub-heading-color">Andy's Man Club</h3>
-                        <p class="card-text flex-grow-1">
+                <div class="card h-100 w-100 d-flex flex-column shadow-sm">
+                    <!-- Wrapper keeps images exactly the same size across all cards -->
+                    <div class="card-img-wrapper d-flex align-items-center justify-content-center p-3">
+                        <img src="assets/images/AMC_Awareness-Poster-scaled.webp"
+                            class="img-fluid object-fit-contain h-100" alt="Andy's Man Club Logo">
+                    </div>
+                    <!-- flex-grow-1 forces all card bodies to expand to the same height -->
+                    <div class="card-body d-flex flex-column flex-grow-1">
+                        <h3 class="card-title h5">Andy's Man Club</h3>
+                        <p class="card-text small text-muted flex-grow-1">
                             Our mission, put simply, is to prevent other families from going through the heartache and
-                            grief caused by suicide, by encouraging men to speak openly about their issues.
-                            <br>
-                            We aim to achieve this through our Monday night talking groups, and through the power of
-                            awareness, sharing stories and sharing experiences.
+                            grief caused by suicide, by encouraging men to speak openly about their issues. We aim to
+                            achieve this through our Monday night talking groups, and through the power of awareness,
+                            sharing stories and sharing experiences.
                         </p>
                     </div>
-                    <div class="card-footer mt-auto">
-                        <a class="mb-0" href="https://andysmanclub.co.uk/" target="_blank"
-                            rel="noopener noreferrer">Visit AMC website</a>
+                    <!-- mt-auto locks the footer link to the absolute bottom of the card -->
+                    <div class="card-footer bg-transparent border-top-0 mt-auto pt-0 pb-3 text-center">
+                        <a href="https://andysmanclub.co.uk/" target="_blank"
+                            class="btn btn-outline-primary btn-sm w-100">Visit AMC
+                            website</a>
                     </div>
                 </div>
             </div>
 
             <!-- Men's Minds Matter -->
             <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
-                <div class="card h-100 w-100 d-flex flex-column">
-                    <img src="assets/images/MMM-logo.svg" class="card-img-top mmm" alt="Men's Minds Matter logo">
+                <div class="card h-100 w-100 d-flex flex-column shadow-sm">
+                    <div class="card-img-wrapper d-flex align-items-center justify-content-center p-3">
+                        <img src="assets/images/MMM-Logo.svg" id="mmm" class="img-fluid object-fit-contain h-100"
+                            alt="Men's Minds Matter Logo">
+                    </div>
                     <div class="card-body d-flex flex-column flex-grow-1">
-                        <h3 class="card-title sub-heading-color">Men's Minds Matter</h3>
-                        <p class="card-text flex-grow-1">
-                            Our Message
-                            "We're not here to f*ck about": The Men's Minds Matter ethos that drives everything we do.
-                            We're here to save lives, today.
-                            Keeping men healthier, happier & alive since 2009.
-                            We're here because a British man dies of suicide every two hours. We empower people to
-                            navigate life's challenges, so they come out the other side healthier, happier and alive.
+                        <h3 class="card-title h5">Men's Minds Matter</h3>
+                        <p class="card-text small text-muted flex-grow-1">
+                            Our Message "We're not here to f*ck about": The Men's Minds Matter ethos that drives
+                            everything we do. We're here to save lives, today. Keeping men healthier, happier & alive
+                            since 2009. We're here because a British man dies of suicide every two hours. We empower
+                            people to navigate life's challenges, so they come out the other side healthier, happier and
+                            alive.
                         </p>
                     </div>
-                    <div class="card-footer mt-auto">
-                        <a class="mb-0" href="https://www.mensmindsmatter.org/" target="_blank"
-                            rel="noopener noreferrer">Visit Men's Minds Matter website</a>
+                    <div class="card-footer bg-transparent border-top-0 mt-auto pt-0 pb-3 text-center">
+                        <a href="https://www.mensmindsmatter.org/" target="_blank"
+                            class="btn btn-outline-primary btn-sm w-100">Visit
+                            Men's Minds Matter website</a>
                     </div>
                 </div>
             </div>
 
             <!-- Fathers Guidance -->
             <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
-                <div class="card h-100 w-100 d-flex flex-column">
-                    <img src="assets/images/fathersguidance.webp" class="card-img-top" alt="Fathers Guidance logo">
+                <div class="card h-100 w-100 d-flex flex-column shadow-sm">
+                    <div class="card-img-wrapper d-flex align-items-center justify-content-center p-3">
+                        <img src="assets/images/fathersguidance.webp" class="img-fluid object-fit-contain h-100"
+                            alt="Fathers Guidance Logo">
+                    </div>
                     <div class="card-body d-flex flex-column flex-grow-1">
-                        <h3 class="card-title sub-heading-color">Fathers Guidance</h3>
-                        <p class="card-text flex-grow-1">
+                        <h3 class="card-title h5">Fathers Guidance</h3>
+                        <p class="card-text small text-muted flex-grow-1">
                             Fathers Guidance is a U.S.-based 501(c)(3) nonprofit dedicated to supporting fathers
                             experiencing parental alienation, challenging the stigma surrounding men's mental health,
-                            and promoting self-care.
-
-                            Dr. Matthew Peloquin founded Fathers Guidance to address a critical gap in mental health and
-                            family advocacy: the psychological impact of parental alienation on fathers.
+                            and promoting self-care. Dr. Matthew Peloquin founded Fathers Guidance to address a critical
+                            gap in mental health and family advocacy: the psychological impact of parental alienation on
+                            fathers.
                         </p>
                     </div>
-                    <div class="card-footer mt-auto">
-                        <a class="mb-0" href="https://fathersguidance.org/" target="_blank"
-                            rel="noopener noreferrer">Visit Fathers Guidance website</a>
+                    <div class="card-footer bg-transparent border-top-0 mt-auto pt-0 pb-3 text-center">
+                        <a href="https://fathersguidance.org/" target="_blank"
+                            class="btn btn-outline-primary btn-sm w-100">Visit
+                            Fathers Guidance website</a>
                     </div>
                 </div>
             </div>
 
             <!-- Stand Easy -->
             <div class="col-12 col-md-6 col-xl-3 d-flex align-items-stretch">
-                <div class="card h-100 w-100 d-flex flex-column">
-                    <img src="assets/images/standeasy-01-2.svg" class="card-img-top"
-                        alt="A kids party being held at Boardwalk Games">
+                <div class="card h-100 w-100 d-flex flex-column shadow-sm">
+                    <div class="card-img-wrapper d-flex align-items-center justify-content-center p-3">
+                        <img src="assets/images/standeasy-01-2.svg" class="img-fluid object-fit-contain h-100"
+                            alt="Stand Easy Logo">
+                    </div>
                     <div class="card-body d-flex flex-column flex-grow-1">
-                        <h3 class="card-title sub-heading-color">Stand Easy</h3>
-                        <p class="card-text flex-grow-1">
-                            "They are soldiers, people with dignity and pride, and they need to be treated accordingly.”
-                            - Naji Malak, CEO/Founder & Practitioner.
-
-                            We offer specialised trauma and PTSD acupuncture treatment at the hands of someone with 40
-                            years of experience treating military personnel and civilians, carefully placed needles help
-                            to lift trauma and its subsequent symptoms.
-
-                            Our treatment is designed to respect soldiers and their space; we place no demands on
-                            patients. We believe talking about your trauma is not always necessary, vulnerable people
-                            should not be required to talk about darkness in order to heal.
-
-                            If you are a veteran experiencing PTSD symptoms seek our help today.
+                        <h3 class="card-title h5">Stand Easy</h3>
+                        <p class="card-text small text-muted flex-grow-1">
+                            "They are soldiers, people with dignity and pride, and they need to be treated accordingly."
+                            - Naji Malak, CEO/Founder & Practitioner. We offer specialised trauma and PTSD acupuncture
+                            treatment at the hands of someone with 40 years of experience treating military personnel
+                            and civilians. Carefully placed needles help to lift trauma and its subsequent symptoms. Our
+                            treatment is designed to respect soldiers and their space; we place no demands on patients.
+                            We believe talking about your trauma is not always necessary, vulnerable people should not
+                            be required to talk about darkness in order to heal. If you are a veteran experiencing PTSD
+                            symptoms seek our help today.
                         </p>
                     </div>
-                    <div class="card-footer mt-auto">
-                        <a class="mb-0" href="https://standeasy.org.uk/" target="_blank" rel="noopener noreferrer">Visit Stand Easy website</a>
+                    <div class="card-footer bg-transparent border-top-0 mt-auto pt-0 pb-3 text-center">
+                        <a href="https://standeasy.org.uk/" target="_blank"
+                            class="btn btn-outline-primary btn-sm w-100">Visit Stand
+                            Easy website</a>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
 
 
+
+
+    <footer class="site-footer py-5 mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <h3 class="footer-title">Anchor &amp; Horizon</h3>
+                    <p class="footer-text mb-0">
+                        Supporting men’s health, well-being, and community connection.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="list-unstyled footer-links mb-0">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="list-unstyled footer-text mb-0">
+                        <li>Email: info@anchorhorizon.com</li>
+                        <li>Phone: 01234 567890</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="footer-divider my-4">
+
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+                <p class="mb-0 footer-small">© 2026 Anchor &amp; Horizon. All rights reserved.</p>
+                <a class="footer-small" href="#">Back to top</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
