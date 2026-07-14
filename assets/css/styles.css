@@ -40,6 +40,22 @@ nav.custom-navbar {
 	width: auto;
 }
 
+/* Base Style: Solid Background, Matching Border, White Text */
+.btn-signup {
+    background-color: #F59E0B; /* Replace with your custom brand color */
+    border: 2px solid #F59E0B; /* Keeps size stable during state switch */
+    color: #FFFFFF;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Hover State: Transparent Background, Border stays, Text takes brand color */
+.btn-signup:hover,
+.btn-signup:focus {
+    background-color: transparent;
+    color: #F59E0B; /* Matches the border custom color */
+    border-color: #F59E0B;
+}
+
 
 /* Add top padding so page content isn't hidden behind fixed navbar */
 body {
