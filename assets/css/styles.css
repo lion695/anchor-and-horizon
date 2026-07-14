@@ -1,38 +1,56 @@
-/* Custom styles for the navbar and hero section */
+/* Brand color palette */
+:root {
+	--brand-color: #F59E0B;
+	--text-color: #FFFFFF;
+	--background-color: #0F172A;
+}
 
-nav.custom-navbar {
-	background-color: #0F172A;
+/* Global */
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 80px;
+}
+
+body {
+	padding-top: 145px;
+	overflow-x: hidden;
+	background-color: #FFFFFF;
+}
+
+#services:target,
+#contact:target,
+#site-footer:target {
+	scroll-margin-top: 80px;
+}
+
+main,
+.hero-section {
+	position: relative;
+	z-index: 1;
+}
+
+/* Navbar */
+nav.custom-navbar,
+.custom-navbar {
+	background-color: var(--background-color);
 	z-index: 1050;
 }
 
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand span {
+	color: var(--text-color);
+}
+
 .nav-title {
-	font-size: 24px; /* Reduced from 100px to fit standard desktop screens */
+	font-size: 24px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	color: #FFFFFF;
+	color: var(--text-color);
 	font-weight: 600;
 	pointer-events: none;
 	width: max-content;
-}
-
-.custom-navbar {
-	background-color: #0F172A;
-}
-
-.custom-navbar .nav-link {
-	color: #FFFFFF;
-}
-
-.custom-navbar .navbar-brand span {
-	color: #FFFFFF;
-}
-
-.btn-signup {
-	background-color: #F59E0B;
-	color: #FFFFFF;
-	border: none;
 }
 
 .navbar-brand img {
@@ -40,94 +58,32 @@ nav.custom-navbar {
 	width: auto;
 }
 
-/* Base Style: Solid Background, Matching Border, White Text */
+/* Buttons */
 .btn-signup {
-    background-color: #F59E0B; /* Replace with your custom brand color */
-    border: 2px solid #F59E0B; /* Keeps size stable during state switch */
-    color: #FFFFFF;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	background-color: var(--brand-color);
+	border: 2px solid var(--brand-color);
+	color: var(--text-color);
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-/* Hover State: Transparent Background, Border stays, Text takes brand color */
 .btn-signup:hover,
 .btn-signup:focus {
-    background-color: transparent;
-    color: #F59E0B; /* Matches the border custom color */
-    border-color: #F59E0B;
+	background-color: transparent;
+	color: var(--brand-color);
+	border-color: var(--brand-color);
 }
 
-
-/* Add top padding so page content isn't hidden behind fixed navbar */
-body {
-	padding-top: 145px;
-}
-
-main, 
+/* Hero */
 .hero-section {
 	position: relative;
-	z-index: 1; /* Explicitly forces the hero content below the navbar layer stack */
-}
-
-/* Events */
-#events {
-    width: 100%;
-    max-width: 800px;
-    /* Limits stretching on giant desktop screens */
-    margin: 0 auto;
-    /* Perfectly centers the entire section */
-    padding: 40px 24px;
-    /* Generous breathing room on sides for mobile */
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    /* Vertically aligns all children to the center */
-}
-
-#events .table {
-    font-size: 0.7rem;
-}
-
-/* Centered navbar title */
-.nav-title {
-	font-size: 100px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	color: #FFFFFF;
-	font-weight: 600;
-	pointer-events: none;
-}
-
-/* Hero section */
-.hero-section {
-	/* use the h2 image */
-	background-image: url("../images/h2.png");
-	/* span full width like the navbar and cover the area */
-	
-	
-	background-repeat: no-repeat;
-	background-position: center center;
 	min-height: 70vh;
 	width: 100%;
-	left: 0;
-	right: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
-	color: #fff;
-	background-color: #0F172A;
-	/* fallback for letterbox areas */
+	overflow: hidden;
+	background-color: var(--background-color);
+	color: var(--text-color);
 }
 
 .hero-image {
@@ -138,6 +94,7 @@ main,
 	object-fit: contain;
 	object-position: center;
 	z-index: 0;
+	pointer-events: none;
 }
 
 .hero-overlay {
@@ -165,62 +122,160 @@ main,
 	margin-bottom: 1rem;
 }
 
-/* Service section */
-#mmm {
-	max-width: 200px;
-	height: auto;
+/* Content / Events */
+#events {
 	width: 100%;
+	max-width: 800px;
 	margin: 0 auto;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding: 40px 24px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#events .table {
+	font-size: 0.7rem;
+}
+
+/* Services */
+#mmm {
+	padding: 1rem 0;
 	background-color: rgb(39, 68, 86);
 }
 
+/* Testimonials */
+.testimonial-card {
+	background: #fff;
+	border-radius: 1rem;
+	box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 1.5rem;
+}
+
+.testimonial-img {
+	width: 96px;
+	height: 96px;
+	object-fit: cover;
+	border: 4px solid var(--background-color);
+}
+
+#testimonialCarousel .carousel-indicators [data-bs-target] {
+	background-color: var(--brand-color);
+	height: 4px;
+}
+
+#testimonialCarousel .carousel-indicators .active {
+	background-color: #d97706;
+}
+
+#testimonialCarousel .carousel-control-prev-icon,
+#testimonialCarousel .carousel-control-next-icon {
+	filter: invert(72%) sepia(85%) saturate(1450%) hue-rotate(15deg) brightness(101%) contrast(94%);
+}
+
+/* Footer */
 .site-footer {
-    background-color: #0F172A;
-    color: #FFFFFF;
+	background-color: var(--background-color);
+	color: var(--text-color);
 }
 
 .footer-title {
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
 }
 
 .footer-text,
 .footer-small {
-    color: rgba(255, 255, 255, 0.8);
+	color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-links a,
 .footer-small a {
-    color: #FFFFFF;
-    text-decoration: none;
+	color: var(--text-color);
+	text-decoration: none;
 }
 
 .footer-links a:hover,
 .footer-small a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .footer-divider {
-    border-color: rgba(255, 255, 255, 0.15);
+	border-color: var(--brand-color);
 }
 
+/* Responsive */
 @media (max-width: 768px) {
+	body {
+		padding-top: 120px;
+	}
+
 	.hero-section {
-		height: 50vh;
+		min-height: 50vh;
 	}
 
 	.hero-content h1 {
 		font-size: 1.4rem;
 	}
+
+	.navbar-brand img {
+		height: 80px;
+	}
 }
 
 @media (max-width: 576px) {
-
-	/* Slightly smaller title on very small screens to avoid overlap */
 	.nav-title {
 		font-size: 14px;
+	}
+}
+
+#services .card {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#services .card-img-wrapper {
+	height: clamp(160px, 18vw, 220px);
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+}
+
+#services .card-img-wrapper img {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	object-fit: contain;
+}
+
+#services .card-body {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 220px;
+}
+
+#services .card-text {
+	flex-grow: 1;
+}
+
+#services .card-footer {
+	margin-top: auto;
+}
+
+@media (max-width: 576px) {
+	#services .card-img-wrapper {
+		height: 150px;
+	}
+
+	#services .card-body {
+		min-height: auto;
 	}
 }
