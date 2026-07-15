@@ -592,31 +592,51 @@ Use this space to discuss any differences between the local version you've devel
 There are no remaining major differences between the local version when compared to the deployed version online.
 
 ## Credits
+### 👥 Development & Design
+* **[Kieron Rostill-Fellows/lion695]** - Lead Developer & UI/UX Designer - [GitHub Profile](https://github.com)
+* **[Code Institute](https://codeinstitute.net)** - Source code templates utilized from Broadwalk Games for the structural implementation of the interactive carousel and data schedule table.
+
+### 🛠️ Frameworks & Libraries
+* **[Bootstrap 5](https://getbootstrap.com)** - Open-source front-end toolkit used for responsive grid systems, styled form inputs, and interactive components.
+
+### 🤖 AI Coding Assistants
+* **[GitHub Copilot](https://github.com)** - AI pair-programmer utilized within VS Code for automated code refactoring, semantic validation, and optimization.
 
 
+### 🎨 Design & Prototyping Tools
+* **[Coolors.co](https://coolors.co)** - Color palette generation tool used to establish the website's brand identity and visual color scheme.
 
-⚠️ INSTRUCTIONS ⚠️
+* **[ChatGPT & DALL·E 3](https://chatgpt.com)** - AI-powered generation of visual wireframe layouts, brand logo, and hero section imagery.
 
-In the following sections, you need to reference where you got your content, media, and any extra help. It is common practice to use code from other repositories and tutorials (which is totally acceptable), however, it is important to be very specific about these sources to avoid potential plagiarism.
+* **[VS Code](https://visualstudio.com)** - Core integrated development environment (IDE).
 
-⚠️ --- END ---⚠️
+### ⚓ Community & Mental Health Partners
+* **[Anxious Minds (AMC)](https://anxiousminds.co.uk)** - Services and community support integration.
+* **[Men's Minds Matter (MMM)](https://mensmindsmatter.org)** - Mental health awareness and campaign materials.
+* **[Fighting Grief (FG)]** - Support resources and organizational framework.
+* **[Stand Easy (SE)](https://kinsta.cloud)** - PTSD and veteran-focused mental health support services.
+
+### 📊 Data & Statistics
+* **[The Mental Health Foundation](https://mentalhealth.org.uk)** - Statistical data on UK male suicide rates and mental health trends.
+
+### 🖼️ Media & Visual Assets
+* **[Unsplash](https://unsplash.com)** / **[Pexels](https://pexels.com)** - High-quality, royalty-free photography used for background containers and user avatars.
+
 
 ### Content
 
-⚠️ INSTRUCTIONS ⚠️
+### 👥 Development & Design
+* **[lion695 / boardwalk-games](https://github.com/lion695/boardwalk-games)** - Source code reference utilized for the structural implementation of the responsive Bootstrap 5 carousel slider and data schedule tables.
 
-Use this space to provide attribution links for any borrowed code snippets, elements, and resources. Ideally, you should provide an actual link to every resource used, not just a generic link to the main site. If you've used multiple components from the same source (such as Bootstrap), then you only need to list it once, but if it's multiple Codepen samples, then you should list each example individually. If you've used AI for some assistance (such as ChatGPT or Perplexity), be sure to mention that as well. A few examples have been provided below to give you some ideas.
-
-Eventually you'll want to learn how to use Git branches. Here's a helpful tutorial called [Learn Git Branching](https://learngitbranching.js.org) to bookmark for later.
-
-⚠️ --- END ---⚠️
+### 🛠️ Frameworks & Libraries
+* **[Bootstrap 5 (Form Controls)](https://getbootstrap.com/docs/5.3/forms/form-control/)** - Official component documentation utilized for structuring the responsive input fields and text areas on the contact form.
 
 | Source | Notes |
 | --- | --- |
 | [Markdown Builder](https://markdown.2bn.dev) | Help generating Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | "How to Write a Git Commit Message" |
-| [Love Running](https://codeinstitute.net) | Code Institute walkthrough project inspiration |
-| [ChatGPT](https://chatgpt.com) | Help with code logic and explanations |
+| [Boardwalk Games](https://codeinstitute.net) | Code Institute walkthrough project inspiration |
+| [ChatGPT](https://chatgpt.com) | Help with code logic and explanations along with creation of logo and hero image |
 
 ### Media
 
@@ -633,17 +653,9 @@ Looking for some media files? Here are some popular sites to use. The list of ex
     - [Lorem Picsum](https://picsum.photos) (placeholder images)
     - [Wallhere](https://wallhere.com) (wallpaper / backgrounds)
     - [This Person Does Not Exist](https://thispersondoesnotexist.com) (reload to get a new person)
-- Audio
-    - [Audio Micro](https://www.audiomicro.com/free-sound-effects)
-    - [Button Clicks](https://www.zapsplat.com/sound-effect-category/button-clicks)
-    - [Lasers & Weapons](https://www.zapsplat.com/sound-effect-category/lasers-and-weapons/page/5)
-    - [Puzzle Music](https://soundimage.org/puzzle-music)
-    - [Camtasia Audio](https://library.techsmith.com/camtasia/assets/Audio)
-- Video
-    - [Videvo](https://www.videvo.net)
+
 - Image Compression
-    - [TinyPNG](https://tinypng.com) (for images <5MB)
-    - [CompressPNG](https://compresspng.com) (for images >5MB)
+    * **[ChatGPT & DALL·E 3](https://chatgpt.com)** - AI-powered generation of visual wireframe layouts, brand logos, hero imagery, and subsequent asset size optimization/compression.
 
 A few examples have been provided below to give you some ideas on how to do your own Media credits.
 
@@ -652,15 +664,13 @@ A few examples have been provided below to give you some ideas on how to do your
 | Source | Notes |
 | --- | --- |
 | [favicon.io](https://favicon.io) | Generating the favicon |
-| [Love Running](https://codeinstitute.net) | Sample images provided from the walkthrough projects |
+
 | [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
-| [Pexels](https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg) | Hero image |
-| [Wallhere](https://c.wallhere.com/images/9c/c8/da4b4009f070c8e1dfee43d25f99-2318808.jpg!d) | Background wallpaper |
-| [Pixabay](https://cdn.pixabay.com/photo/2017/09/04/16/58/passport-2714675_1280.jpg) | Background wallpaper |
-| [DALL-E 3](https://openai.com/index/dall-e-3) | AI generated artwork |
-| [TinyPNG](https://tinypng.com) | Compressing images < 5MB |
-| [CompressPNG](https://compresspng.com) | Compressing images > 5MB |
-| [CloudConvert](https://cloudconvert.com/webp-converter) | Converting images to `.webp` |
+
+
+* **[ChatGPT & DALL·E 3](https://chatgpt.com)** - AI-powered generation of visual wireframe layouts, brand logos, hero imagery, and subsequent asset size optimization/compression. | Hero Image | Logo | Compression |
+
+
 
 ### Acknowledgements
 
