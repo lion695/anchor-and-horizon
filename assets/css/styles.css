@@ -1,6 +1,7 @@
 /* Brand color palette */
 :root {
     --brand-color: #945700;
+    --secondary-color: #FBBF24;
     --text-color: #FFFFFF;
     --background-color: #0F172A;
 }
@@ -234,7 +235,7 @@ custom-navbar .container-fluid {
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--brand-color);
+    color: var(--secondary-color);
 }
 
 .footer-text,
@@ -244,7 +245,7 @@ custom-navbar .container-fluid {
 
 #back-to-top {
     font-size: 0.875rem;
-    color: var(--brand-color);
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
@@ -260,7 +261,7 @@ custom-navbar .container-fluid {
 }
 
 .footer-divider {
-    border-color: var(--brand-color);
+    border-color: var(--secondary-color);
 }
 
 /* Responsive */
