@@ -519,8 +519,8 @@ Planned Enhancements
 
 | Link | Screenshot |
 | --- | --- |
-| [![GitHub issues](https://img.shields.io/github/issues-search/lion695/anchor-and-horizon?query=is%3Aissue%20is%3Aopen%20-label%3Abug&label=Open%20Issues&color=yellow)](https://www.github.com/lion695/anchor-and-horizon/issues?q=is%3Aissue%20is%3Aopen%20-label%3Abug) | ![screenshot](documentation/gh-issues-open.png) |
-| [![GitHub closed issues](https://img.shields.io/github/issues-search/lion695/anchor-and-horizon?query=is%3Aissue%20is%3Aclosed%20-label%3Abug&label=Closed%20Issues&color=green)](https://www.github.com/lion695/anchor-and-horizon/issues?q=is%3Aissue%20is%3Aclosed%20-label%3Abug) | ![screenshot](documentation/gh-issues-closed.png) |
+| [![GitHub issues](https://img.shields.io/github/issues-search/lion695/anchor-and-horizon?query=is%3Aissue%20is%3Aopen%20-label%3Abug&label=Open%20Issues&color=yellow)](https://www.github.com/lion695/anchor-and-horizon/issues?q=is%3Aissue%20is%3Aopen%20-label%3Abug) | ![screenshot](documentation\project-board\board_pic_2.png) |
+| [![GitHub closed issues](https://img.shields.io/github/issues-search/lion695/anchor-and-horizon?query=is%3Aissue%20is%3Aclosed%20-label%3Abug&label=Closed%20Issues&color=green)](https://www.github.com/lion695/anchor-and-horizon/issues?q=is%3Aissue%20is%3Aclosed%20-label%3Abug) | ![screenshot](documentation\project-board\board_pic_1.png) |
 
 ### MoSCoW Prioritization
 
@@ -530,6 +530,8 @@ I've decomposed my Epics into User Stories for prioritizing and implementing the
 - **Should Have**: adds significant value, but not vital (*~20% of stories*)
 - **Could Have**: has small impact if left out (*the rest ~20% of stories*)
 - **Won't Have**: not a priority for this iteration - future features
+
+There was only one should have in this design and that was to signup to a newsletter this has been successfully implemented.
 
 ## Testing
 
@@ -582,12 +584,6 @@ By forking the GitHub Repository, you make a copy of the original repository on 
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 ### Local VS Deployment
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site. Generally, there shouldn't be [m]any major differences, so if you honestly cannot find any differences, feel free to use the following example:
-
-⚠️ --- END --- ⚠️
 
 There are no remaining major differences between the local version when compared to the deployed version online.
 
@@ -648,18 +644,15 @@ Looking for some media files? Here are some popular sites to use. The list of ex
 
 - Images
     - [Pexels](https://www.pexels.com)
-    - [Unsplash](https://unsplash.com)
-    - [Pixabay](https://pixabay.com)
-    - [Lorem Picsum](https://picsum.photos) (placeholder images)
-    - [Wallhere](https://wallhere.com) (wallpaper / backgrounds)
-    - [This Person Does Not Exist](https://thispersondoesnotexist.com) (reload to get a new person)
+    - [Unsplash](https://unsplash.com)       
+    
 
 - Image Compression
     * **[ChatGPT & DALL·E 3](https://chatgpt.com)** - AI-powered generation of visual wireframe layouts, brand logos, hero imagery, and subsequent asset size optimization/compression.
 
 A few examples have been provided below to give you some ideas on how to do your own Media credits.
 
-⚠️ --- END ---⚠️
+
 
 | Source | Notes |
 | --- | --- |
@@ -674,14 +667,10 @@ A few examples have been provided below to give you some ideas on how to do your
 
 ### Acknowledgements
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to provide attribution and acknowledgement to any supports that helped, encouraged, or supported you throughout the development stages of this project. It's always lovely to appreciate those that help us grow and improve our developer skills. A few examples have been provided below to give you some ideas.
-
-⚠️ --- END ---⚠️
-
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) and [Code Institute Discord community](https://discord-portal.codeinstitute.net) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
 - I would like to thank my partner, for believing in me, and allowing me to make this transition into software development.
+
+- I would like to acknowledge the number of MALE friends and family I have personally lost as the inspiration for this project, it was in thinking of them that Mens mental health became the focus of the page.
 
