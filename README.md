@@ -478,14 +478,6 @@ Responsive navigation.
 Future Features
 
 Planned Enhancements
- 
- 
-
-
-
-
-
-
 
 - **Crisis support banner**: with emergency contact information..
 - **Dedicated resources page**: with filtering options.
@@ -509,25 +501,13 @@ Planned Enhancements
 | [![badge](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) | Hosting the deployed front-end site. |
 | [![badge](https://img.shields.io/badge/Bootstrap-grey?logo=bootstrap&logoColor=7952B3)](https://getbootstrap.com) | Front-end CSS framework for modern responsiveness and pre-built components. |
 
-⚠️ NOTE ⚠️
-
-Want to add more?
-
-- Tutorial: https://shields.io/badges/static-badge
-- Icons/Logos: https://simpleicons.org
-  - FYI: not all logos are available to use
-
-🛑 --- END --- 🛑
-
 ## Agile Development Process
 
 ### GitHub Projects
 
-⚠️ TIP ⚠️
-
-Consider adding screenshots of your Projects Board(s), Issues (open and closed), and Milestone tasks.
-
-⚠️ --- END ---⚠️
+![screenshot](documentation\project-board\board_pic_2.png)
+![screenshot](documentation\project-board\nav_pic.png)
+![screenshot](documentation\project-board\board_pic_1.png)
 
 [GitHub Projects](https://www.github.com/lion695/anchor-and-horizon/projects) served as an Agile tool for this project. Through it, EPICs, User Stories, issues/bugs, and Milestone tasks were planned, then subsequently tracked on a regular basis using the Kanban project board.
 
@@ -612,6 +592,8 @@ Use this space to discuss any differences between the local version you've devel
 There are no remaining major differences between the local version when compared to the deployed version online.
 
 ## Credits
+
+
 
 ⚠️ INSTRUCTIONS ⚠️
 

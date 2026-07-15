@@ -43,12 +43,12 @@ nav.custom-navbar,
     color: var(--text-color);
 }
 
-#nav-btn:hover,
-#nav-btn:focus{
+.nav-btn:hover,
+.nav-btn:focus {
     color: var(--secondary-color);
 }
 
-custom-navbar .container-fluid {
+.custom-navbar .container-fluid {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -89,29 +89,29 @@ custom-navbar .container-fluid {
     border-color: var(--secondary-color);
 }
 
-#hero-signup-btn {
+.btn-hero-signup {
     background-color: var(--background-color);
     border: 2px solid var(--brand-color);
     color: var(--secondary-color);
-    transition: secondary-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-#hero-signup-btn:hover,
-#hero-signup-btn:focus {
+.btn-hero-signup:hover,
+.btn-hero-signup:focus {
     background-color: transparent;
     color: var(--text-color);
     border-color: var(--secondary-color);
 }
 
-#form-signup-btn {
+.btn-form-submit {
     background-color: var(--background-color);
     border: 2px solid var(--brand-color);
     color: var(--secondary-color);
-    transition: secondary-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-#form-signup-btn:hover,
-#form-signup-btn:focus {
+.btn-form-submit:hover,
+.btn-form-submit:focus {
     background-color: var(--brand-color);
     color: var(--text-color);
     border-color: var(--background-color);
