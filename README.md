@@ -14,43 +14,21 @@ This project focuses primarily on men's mental health. Statistically 1 man commi
 
 There will be a page highlighting some of the events this website organizes to help men who are facing these types of difficulties to meet up and work through it together weather it be through exercise, day trips or talking.
 
-⚠️ --- END --- ⚠️
 
-🛑 README NOTES 🛑
-
-Do not add a **Table of Contents** to your Markdown files. GitHub has these built-in automatically using the headers/hashtags.
-
-Don't add screenshots for the README/TESTING into your `assets` or `static` folders. Create a new folder at the root-level called `documentation`. Consider creating sub-directories within `documentation` to handle things like `wireframes`, `features`, `validation`, `responsiveness`, etc.
-
-Learn about Markdown Alerts (aka Callouts), a fairly new feature for GitHub Markdown files.
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts
-Note: these are not visible within your README Previewer, and are only visible once you push the code to GitHub.
 
 **Site Mockups**
-*([amiresponsive](https://ui.dev/amiresponsive?url=https://lion695.github.io/anchor-and-horizon), [techsini](https://techsini.com/multi-mockup), etc.)*
+*([amiresponsive](https://ui.dev/amiresponsive?url=https://lion695.github.io/anchor-and-horizon)
 
-![alt text](image.png)
-Having issues generating site mockups? This is likely due to security policies with your deployed site.
-If you open up your DevTools, there may be an error referencing `X-Frame-Options`.
+![screenshot](documentation\wireframes\am_i.png)
 
-For Chrome users, head over to http://bit.ly/3iRPn4u and install the extension within your browser. Once installed, navigate back to the mockup site of your choice. You should find your site rendering in the various devices now.
 
-Alternatively, open your project in Gitpod and run the server. Once the site is running, click the `Ports` tab from your Gitpod Terminal. Click the padlock on the appropriate port for your project (`Flask: 5000`, `Django: 8000`). This will make your local page public temporarily. Now, copy the URL of your live-preview page into the responsive tool above. You should find your site rendering in the various devices.
 
-🛑 --- END ---- 🛑
-
-![screenshot](documentation/mockup.png)
 
 source: [anchor-and-horizon amiresponsive](https://ui.dev/amiresponsive?url=https://lion695.github.io/anchor-and-horizon)
-
-> [!IMPORTANT]  
-> The examples in these templates are strongly influenced by the Code Institute walkthrough project called "Love Running".
 
 ## UX
 
 ### The 5 Planes of UX
-
-⚠️ NOTE: make sure to update the text below to match your own project! ⚠️
 
 #### 1. Strategy
 
@@ -89,9 +67,8 @@ source: [anchor-and-horizon amiresponsive](https://ui.dev/amiresponsive?url=http
 **User Flow**
 1. User lands on the home page → about us section with statistics and the sites mission.
 2. Navigates to the services → sees various links to sites on different categories they can resource.
-3. Views the events → checks upcoming/past event details.
+3. Views the events → sees times for events and testimonials.
 4. Signs up via the membership page.
-5. Browses the gallery → explores the community spirit.
 
 #### 4. Skeleton
 
@@ -105,22 +82,80 @@ source: [anchor-and-horizon amiresponsive](https://ui.dev/amiresponsive?url=http
 
 ### Colour Scheme
 
-⚠️INSTRUCTIONS ⚠️
+Colour Palette
 
-Explain your colors and color scheme. Consider adding a link and screenshot for your color scheme using [coolors](https://coolors.co/generate).
+The colour palette for Anchor & Horizon was carefully selected to reflect the website's core themes of stability, support, hope, and guidance. I decided to enter a prompt into chatGPT to gauge the best results based on the overall theme of the website. I wanted the user to feel at ease on entering the site especially considering the sensitivity of the subject matter.
 
-When you add a color to the palette, the URL is dynamically updated, making it easier for you to return back to your color palette later if needed. See example below:
+Navy Blue (#0F172A / similar)
 
-⚠️ --- END --- ⚠️
+The primary colour used throughout the website is a dark navy blue. This colour was chosen because it is commonly associated with:
 
-I used [coolors.co](https://coolors.co/080708-3772ff-df2935-fdca40-e6e8e6) to generate my color palette.
+Trust
+Reliability
+Stability
+Calmness
 
-- `#000000` primary text.
-- `#3772FF` primary highlights.
-- `#DF2935` secondary text.
-- `#FDCA40` secondary highlights.
+These qualities align closely with the mission of Anchor & Horizon, which aims to provide a supportive environment for men seeking information and resources related to mental health and wellbeing.
 
-![screenshot](documentation/coolors.png)
+The navy blue header and navigation sections establish a professional and reassuring visual identity while maintaining strong contrast for readability.
+
+Gold / Amber Accent (#F59E0B / similar)
+
+A gold accent colour is used for call-to-action buttons and interactive elements.
+
+This colour was chosen to represent:
+
+Hope
+Optimism
+Direction
+Positive change
+
+The gold colour draws attention to important actions, such as signing up for updates, without overwhelming the overall design.
+
+Additionally, the warm tone complements the sunset imagery used throughout the website, helping create a cohesive visual theme.
+
+White (#FFFFFF)
+
+White is used extensively throughout the website for:
+
+Content backgrounds
+Text contrast
+Visual spacing
+
+The use of white creates a clean and uncluttered appearance that improves readability and helps users focus on important information.
+
+It also provides balance against the darker navigation and imagery elements.
+
+Sunset Imagery
+
+The hero image incorporates warm sunset colours including shades of orange, gold, and soft blue.
+
+This imagery was chosen to reinforce the website's branding concept:
+
+The anchor symbolises stability and support during difficult times.
+The horizon symbolises hope, progress, and looking forward to the future.
+
+Together, these visual elements support the overall goal of creating a welcoming and reassuring experience for visitors.
+
+Accessibility Considerations
+
+The colour palette was selected with accessibility in mind.
+
+High contrast is maintained between text and background colours.
+Dark navigation elements use white text to improve readability.
+Call-to-action buttons are visually distinct and easily identifiable.
+Colours are used to support content rather than convey meaning on their own.
+
+This helps ensure that the website remains accessible to a broad range of users across different devices and viewing conditions.
+
+I used [coolors.co](https://coolors.co/0f172a-ffffff-f59e0b) to generate my color palette.
+
+- `#FFFFFF` primary text.
+- `#0F172A` background color.
+- `#F59E0B` brand color.
+
+
+![screenshot](documentation/color-scheme/cooler-scheme.png)
 
 ### Typography
 
@@ -136,92 +171,330 @@ Explain any fonts and icon libraries used, like **Google Fonts**, **Font Awesome
 
 ## Wireframes
 
-⚠️ INSTRUCTIONS ⚠️
-
-If you've created wireframes or mock-ups, use this section to display screenshots of your wireframes. The example table below uses sample pages from the walkthrough project to give you some inspiration for your own project, so please adjust accordingly.
-
-⚠️ --- END --- ⚠️
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
-
-| Page | Mobile | Tablet | Desktop |
-| --- | --- | --- | --- |
-| Home | ![screenshot](documentation/wireframes/mobile-home.png) | ![screenshot](documentation/wireframes/tablet-home.png) | ![screenshot](documentation/wireframes/desktop-home.png) |
-| Gallery | ![screenshot](documentation/wireframes/mobile-gallery.png) | ![screenshot](documentation/wireframes/tablet-gallery.png) | ![screenshot](documentation/wireframes/desktop-gallery.png) |
-| Signup | ![screenshot](documentation/wireframes/mobile-signup.png) | ![screenshot](documentation/wireframes/tablet-signup.png) | ![screenshot](documentation/wireframes/desktop-signup.png) |
-| Confirmation | ![screenshot](documentation/wireframes/mobile-confirmation.png) | ![screenshot](documentation/wireframes/tablet-confirmation.png) | ![screenshot](documentation/wireframes/desktop-confirmation.png) |
-| 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
+![screenshot](documentation\wireframes\wireframe.png)
 
 ## User Stories
 
-⚠️ INSTRUCTIONS ⚠️
+EPIC: Site Navigation
+User Story #1: Responsive Navigation
+User Story
 
-In this section, list all of your possible user stories for the project. Samples have been provided below using the example walkthrough project for your inspiration. Make sure to adjust to match your own project features!
+As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
 
-⚠️ --- END --- ⚠️
+Acceptance Criteria
+ The website is fully responsive across various devices and screen sizes.
+ Site layout and navigation are intuitive and easy to use.
+ Navigation links function correctly.
+ Mobile users can access the navigation menu through a hamburger menu.
+Tasks
+ Apply responsive design principles using Bootstrap.
+ Create desktop navigation layout.
+ Create mobile navigation menu.
+ Test responsiveness across multiple screen sizes.
+ Verify all navigation links function correctly.
+Priority
 
-| Target | Expectation | Outcome |
-| --- | --- | --- |
-| As a user | I would like to see examples of why I should join | so that I can learn about the club’s mission and purpose before deciding to join. |
-| As a user | I would like to view the running schedule/timetable | so that I can decide when to join a session. |
-| As a user | I would like to see the details of different running events | so that I can prepare accordingly. |
-| As an user | I would like to view a gallery of past events | so that I can see photos of myself and others from previous runs. |
-| As a user | I would like to sign up for the running club | so that I can join the community and participate in events. |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with club news and events. |
-| As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. |
+Must Have
+
+EPIC: Mental Health Awareness
+User Story #2: Understand Website Purpose
+User Story
+
+As a First-Time Visitor, I need a clear introduction to the purpose of Anchor & Horizon so that I can quickly determine whether the website is relevant to my needs.
+
+Acceptance Criteria
+ A hero section is prominently displayed on the homepage.
+ The website mission is clearly communicated.
+ Supporting text explains the website's purpose.
+ A call-to-action is visible within the hero section.
+Tasks
+ Create hero section.
+ Add headline and supporting text.
+ Add call-to-action button.
+ Test visibility on desktop and mobile devices.
+Priority
+
+Must Have
+
+EPIC: Mental Health Awareness
+User Story #3: Access Mental Health Information
+User Story
+
+As a Visitor, I want access to information and statistics regarding men's mental health so that I can better understand the challenges affecting men today.
+
+Acceptance Criteria
+ Mental health statistics are displayed.
+ Information is easy to read and understand.
+ Content remains accessible on all screen sizes.
+Tasks
+ Create statistics section.
+ Research and add relevant statistics.
+ Apply responsive styling.
+ Test readability across devices.
+Priority
+
+Must Have
+
+EPIC: Support Resources
+User Story #4: Discover Support Organisations
+User Story
+
+As a Visitor, I want to browse trusted support organisations so that I can access additional help and guidance when needed.
+
+Acceptance Criteria
+ Resource cards are displayed.
+ Each organisation includes a name and description.
+ Information is clearly presented.
+ Resource cards remain responsive.
+Tasks
+ Create resource cards.
+ Add organisation names.
+ Add organisation descriptions.
+ Style cards for responsive layouts.
+Priority
+
+Must Have
+
+EPIC: Newsletter Engagement
+User Story #5: Subscribe for Updates
+User Story
+
+As a Visitor, I want to subscribe to updates so that I can receive future information about resources, events, and support opportunities.
+
+Acceptance Criteria
+ A signup call-to-action is visible.
+ Users can access the signup form.
+ Form fields are clearly labelled.
+Tasks
+ Create newsletter signup section.
+ Add form fields.
+ Style form for responsiveness.
+ Test form usability.
+Priority
+
+Should Have
+
+EPIC: Responsive Design
+User Story #6: Mobile-Friendly Experience
+User Story
+
+As a Mobile User, I need the website to display correctly on my device so that I can access content easily without zooming or horizontal scrolling.
+
+Acceptance Criteria
+ Content adapts to smaller screen sizes.
+ Images scale appropriately.
+ Text remains readable.
+ Navigation remains accessible.
+Tasks
+ Implement Bootstrap responsive grid system.
+ Test mobile breakpoints.
+ Optimise image sizing.
+ Verify mobile navigation functionality.
+Priority
+
+Must Have
+
+EPIC: Accessibility
+User Story #7: Accessible Content
+User Story
+
+As a Visitor, including users with accessibility needs, I want content to be easy to read and navigate so that I can access information without barriers.
+
+Acceptance Criteria
+ Images include descriptive alt text.
+ Colour contrast meets accessibility guidelines.
+ Heading structure follows a logical hierarchy.
+ Interactive elements are keyboard accessible.
+Tasks
+ Add alt attributes to all images.
+ Review colour contrast.
+ Verify heading structure.
+ Test keyboard navigation.
+Priority
+
+Must Have
 
 ## Features
 
-⚠️ INSTRUCTIONS ⚠️
+Features
+Existing Features
+Responsive Navigation Bar
 
-In this section, you should go over the different parts of your project, and describe each feature. You should explain what value each of the features provides for the user, focusing on your target audience, what they want to achieve, and how your project can help them achieve these things.
+The website includes a fully responsive navigation system that adapts to different screen sizes.
 
-**IMPORTANT**: Remember to always include a screenshot of each individual feature!
 
-⚠️ --- END --- ⚠️
 
-### Existing Features
+Desktop Features:
+
+Logo and branding displayed prominently.
+Navigation links provide quick access to key sections.
+Dedicated "Sign Up" call-to-action button.
+![screenshot](documentation\features\navbar-desktop-view.png) Desktop view ⬆️
+
+Mobile Features:
+
+Navigation collapses into a hamburger menu.
+Mobile-friendly layout optimised for smaller screens.
+Easy access to all navigation links.
+Hero Section
+![screenshot](documentation\features\navbar-mobile-view.png) 
+
+Mobile view ⬆️
+
+![screenshot](documentation\features\navbar-tablet-view.png)
+
+Tablet view ⬆️
+
+The homepage features a large hero banner designed to immediately communicate the purpose of the website.
+
+![screenshot](documentation\features\hero-example.png)
+
+Features include:
+
+Full-width background image.
+Supporting introductory text.
+Call-to-action button encouraging user engagement.
+Responsive design for desktop and mobile devices.
+
+
+About Us Section:
+
+![screenshot](documentation\features\about-us-example.png)
+
+The About Us section introduces visitors to the purpose and goals of Anchor & Horizon.
+
+Features include:
+
+Clear overview of the organisation.
+Information regarding the website's mission.
+
+![screenshot](documentation\features\mission-example.png)
+
+Supporting imagery to enhance visual engagement.
+
+![screenshot](documentation\features\reaching-example.avif)
+
+Responsive two-column layout on larger screens.
+Men's Mental Health Statistics
+
+![screenshot](documentation\features\two-column-example.png)
+
+A dedicated section provides information and statistics relating to men's mental health.
+
+![screenshot](documentation\features\stats-example.png)
+
+Features include:
+
+Educational content designed to raise awareness.
+Relevant UK-focused mental health statistics.
+Structured layout for readability.
+Responsive formatting for smaller devices.
+
+![screenshot](documentation/features/responsive-mobile.png)
+
+Resource Directory
+
+The website provides a curated collection of external support organisations.
+
+Featured organisations include:
+
+Andy's Man Club
+![screenshot](documentation\features\AMC-example.png)
+Men's Minds Matter
+![screenshot](documentation/features/mmm-example.png)
+Fathers Guidance
+![screenshot](documentation\features\fg-example.png)
+Stand Easy
+![screenshot](documentation\features\stand-example.png)
+
+Features include:
+
+Individual information cards.
+Organisation branding and imagery.
+Brief descriptions of available support.
+Consistent card layout.
+Call-to-Action Elements
+
+Call-to-action buttons are used throughout the site to encourage user engagement.
+
+Features include:
+
+Dedicated Sign Up buttons.
+High-contrast styling.
+Consistent visual appearance across the website.
+Branding and Visual Identity
+
+A consistent visual identity has been implemented throughout the website.
+
+Features include:
+
+Custom Anchor & Horizon logo.
+
+![screenshot](documentation\features\logo-example.png)
+
+Navy blue colour palette.
+Gold accent colour for interactive elements.
+Anchor and horizon imagery reflecting the project's theme.
+Responsive Design
+
+The website has been designed using responsive web design principles.
+
+I generated this image using Chat GPT to guarantee it was unique to this project. I wanted it to reflect the overall theme.
+
+Features include:
+
+Mobile-first considerations.
+Flexible layouts.
+Responsive images.
+Optimised viewing experience across desktop, tablet, and mobile devices.
+Accessibility Features
+
+![screenshot](documentation\wireframes\am_i.png)
+
+Accessibility considerations have been incorporated throughout the design.
+
+Features include:
+
+Semantic HTML structure.
+Clear heading hierarchy.
+High-contrast colour combinations.
+Readable typography.
+Responsive navigation.
+
+
 
 | Feature | Notes | Screenshot |
 | --- | --- | --- |
-| Navbar | Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, and Signup page, and is identical in each page to allow for easy navigation. On the smallest screens, a burger icon is used to toggle the navbar so it doesn't take up too much space. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. The navbar is also `fixed`, so it stays in view even if the user has scrolled to the bottom of the page. | ![screenshot](documentation/features/navbar.png) |
-| Hero Image | The landing includes a photo with text-overlay to allow the user to see exactly which location this site would be applicable to. This section introduces the user to *Love Running* with an eye-catching animation to grab their attention. | ![screenshot](documentation/features/hero-image.png) |
-| Club Ethos | The club ethos section will allow the user to see the benefits of joining the *Love Running* meetups, as well as the benefits of running overall. The user will see the value of signing up for the *Love Running* meetups. This should encourage the user to consider running as their form of exercise. | ![screenshot](documentation/features/club-ethos.png) |
-| Schedule | This section will allow the user to see exactly when the meetups will happen, where they will be located, and how long the run will be (in kilometers). The type of run (trail or road) is also shown, to help runners choose the meetups that best match their preference. This section will be updated as these times change to keep the user up to date. | ![screenshot](documentation/features/schedule.png) |
-| Footer | The footer includes links to the relevant social media sites for *Love Running*. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user, as it encourages them to keep connected via social media. | ![screenshot](documentation/features/footer.png) |
-| Gallery | The gallery will provide the user with supporting images to see what the meet-ups look like. This section is valuable to the user, as they will be able to easily identify the types of events that the organization puts together. It's responsive so no images stretch or skew, showing images stacked by 1 on mobile, by 2 on smaller tablets, by 3 on desktop, and by 4 on larger screens. | ![screenshot](documentation/features/gallery.png) |
-| Signup | This page will allow the user to sign up to *Love Running* and start their running journey with the community. The user will be able specify if they would like to take part in road, trail, or both types of running. The user will be asked to submit their full name and email address. | ![screenshot](documentation/features/singup.png) |
-| Confirmation | The confirmation page will give the illusion that the signup form was submitted successfully to the *Love Running* club. Due to the lack of a database or email system so far, this is a fake confirmation page, and will automatically redirect the user back to the home page after 10 seconds. | ![screenshot](documentation/features/confirmation.png) |
-| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Love Running* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
+| Navbar | Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, and Signup page, and is identical in each page to allow for easy navigation. On the smallest screens, a burger icon is used to toggle the navbar so it doesn't take up too much space. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. The navbar is also `fixed`, so it stays in view even if the user has scrolled to the bottom of the page. | ![screenshot](documentation\features\navbar-desktop-view.png) |
+| Hero Image | The landing includes a photo with text-overlay to allow the user to see exactly which location this site would be applicable to. This section introduces the user to Anchor & Horizon with an eye-catching animation to grab their attention. | ![screenshot](documentation\features\hero-example.png) |
+|
+| Schedule | This section will allow the user to see exactly when the meetups will happen, where they will be located, and how long the run will be (in kilometers). The type of run (trail or road) is also shown, to help runners choose the meetups that best match their preference. This section will be updated as these times change to keep the user up to date. | ![screenshot](documentation\features\schedule-example.png) |
+| Footer | The footer includes links to the relevant social media sites for Anchor & Horizon. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user, as it encourages them to keep connected via social media. | ![screenshot](documentation\features\footer-example.png) |
+| Signup | This page will allow the user to sign up to Anchor & Horizon's monthly newsletter The user will be asked to submit their full name, number and email address. | ![screenshot](documentation\features\signup-example.png) |
+| Confirmation | The confirmation page will give the illusion that the signup form was submitted successfully to the Anchor & Horizon newsletter. Due to the lack of a database or email system so far, this is a fake confirmation page. | ![screenshot](documentation\features\success-example.png) |
 
 ### Future Features
 
-⚠️ INSTRUCTIONS ⚠️
+Future Features
 
-Do you have additional ideas that you'd like to include on your project in the future? Fantastic, list them here! It's always great to have plans for future improvements. Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+Planned Enhancements
+ 
+ 
 
-A few examples are listed below to align with possible ways to improve on the sample walkthrough project, to give you some inspiration.
 
-⚠️ --- END ---⚠️
 
-- **Personalized User Profiles**: Allow users to create accounts where they can track their running progress, view personal stats, and share their achievements.
-- **Training Plans**: Offer customizable training plans for runners of all levels (beginner, intermediate, advanced) with notifications and reminders.
-- **Event Registration & Payment**: Integrate an option for runners to register and pay for upcoming events or races directly through the site.
-- **Achievements & Badges**: Introduce a gamification system where users earn badges or achievements for reaching milestones (e.g., number of runs, personal bests, attending events).
-- **Interactive Maps**: Display interactive running route maps, complete with distance markers, elevation data, and difficulty ratings.
-- **Live Event Tracking**: Provide real-time tracking for major club events so users can follow along or support friends running in real-time.
-- **Runner's Blog**: Include a blog section for members to share their running experiences, tips, and stories, fostering community engagement.
-- **Leaderboards**: Add a feature where users can compare their running stats with others in the club via leaderboards (e.g., most kilometers run, fastest times).
-- **Weekly Challenges**: Implement weekly running challenges or group challenges to keep users motivated and engaged.
-- **Weather Integration**: Show local weather conditions for Dublin and suggest the best times for a run, based on user preferences.
-- **Social Sharing**: Enable users to share their runs, achievements, or event participation directly on social media from the site.
-- **Club Merchandise Store**: Introduce an online store where users can purchase branded running gear like shirts, jackets, or water bottles.
-- **Push Notifications**: Allow users to opt-in for mobile push notifications for schedule updates, new events, or motivational reminders.
-- **Virtual Runs**: Create a platform for virtual runs where members can participate remotely and still receive medals or rewards.
-- **Member Forums or Groups**: Introduce discussion boards or group chats for runners to connect, discuss upcoming events, or share training tips.
-- **Charity Partnerships**: Offer integration with local charities where club members can run to raise money or awareness for specific causes.
+
+
+
+
+- **Crisis support banner**: with emergency contact information..
+- **Dedicated resources page**: with filtering options.
+- **Search functionality for support organisations.**
+- **Mental health self-help guides and articles.**
+- **Community events calendar.**
+- **Newsletter subscription functionality connected to a backend service.**
+- **Contact form with form validation.**
+- **User accounts and personalised resource recommendations.**
 
 ## Tools & Technologies
 

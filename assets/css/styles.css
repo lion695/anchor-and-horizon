@@ -1,6 +1,6 @@
 /* Brand color palette */
 :root {
-    --brand-color: #F59E0B;
+    --brand-color: #945700;
     --text-color: #FFFFFF;
     --background-color: #0F172A;
 }
@@ -42,7 +42,7 @@ nav.custom-navbar,
     color: var(--text-color);
 }
 
-.navbar .container {
+custom-navbar .container-fluid {
     display: flex;
     align-items: center;
     gap: 1rem;
