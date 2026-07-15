@@ -43,6 +43,11 @@ nav.custom-navbar,
     color: var(--text-color);
 }
 
+#nav-btn:hover,
+#nav-btn:focus{
+    color: var(--secondary-color);
+}
+
 custom-navbar .container-fluid {
     display: flex;
     align-items: center;
@@ -71,9 +76,9 @@ custom-navbar .container-fluid {
 
 /* Buttons */
 .btn-signup {
-    background-color: var(--brand-color);
+    background-color: var(--background-color);
     border: 2px solid var(--brand-color);
-    color: var(--text-color);
+    color: var(--secondary-color);
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
@@ -81,7 +86,35 @@ custom-navbar .container-fluid {
 .btn-signup:focus {
     background-color: transparent;
     color: var(--brand-color);
-    border-color: var(--brand-color);
+    border-color: var(--secondary-color);
+}
+
+#hero-signup-btn {
+    background-color: var(--background-color);
+    border: 2px solid var(--brand-color);
+    color: var(--secondary-color);
+    transition: secondary-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+#hero-signup-btn:hover,
+#hero-signup-btn:focus {
+    background-color: transparent;
+    color: var(--text-color);
+    border-color: var(--secondary-color);
+}
+
+#form-signup-btn {
+    background-color: var(--background-color);
+    border: 2px solid var(--brand-color);
+    color: var(--secondary-color);
+    transition: secondary-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+#form-signup-btn:hover,
+#form-signup-btn:focus {
+    background-color: var(--brand-color);
+    color: var(--text-color);
+    border-color: var(--background-color);
 }
 
 /* Hero */
@@ -249,6 +282,11 @@ custom-navbar .container-fluid {
     text-decoration: none;
 }
 
+#back-to-top:hover {
+    text-decoration: underline;
+    color: var(--text-color);
+}
+
 .footer-links a,
 .footer-small a {
     color: var(--text-color);
@@ -258,6 +296,7 @@ custom-navbar .container-fluid {
 .footer-links a:hover,
 .footer-small a:hover {
     text-decoration: underline;
+    color: var(--secondary-color);
 }
 
 .footer-divider {
