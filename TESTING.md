@@ -59,7 +59,7 @@ The image was reprocessed and converted into a more efficient format while maint
 
 ---
 
-### Final Lighthouse Results
+### Improved Lighthouse Results
 
 Following the hero image optimisation, the site's Lighthouse Performance score increased from **83** to **97**.
 
@@ -75,7 +75,9 @@ The testing process highlighted the importance of both accessibility and image o
 - Reduced hero image file size without noticeable quality loss.
 - Increased Lighthouse Performance score from **83** to **97**.
 
-This optimisation significantly improved the overall user experience by reducing page load times and increasing Lighthouse performance metrics.
+This optimisation significantly improved the overall user experience by reducing page load times and increasing Lighthouse performance metrics futher tweaking produced the following result.
+
+![screenshot](documentation\optimization_and_fixes\L2.png)
 
 ## Button Styling
 Below are the changes made to the button styling to maintain consistency throughout the site and provide a more accessible and user-friendly experience.
@@ -107,11 +109,22 @@ Below are the changes made to the button styling to maintain consistency through
 - Social media links added and color coded to match the site.
 - Link to my GitHub account added.
 
-![screenshot](footer-link-hover.png)
+![screenshot](documentation\optimization_and_fixes\footer-link-hover.png)
 
-![screenshot](footer-social-hover.png) 
-![screenshot](my-github-hover.png)
+![screenshot](documentation\optimization_and_fixes\footer-social-hover.png) 
+![screenshot](documentation/optimization_and_fixes/my-github-hover.png)
 
 ## HTML Validation
 
 The examples below were taken from the source code of the deployed site on GitHub.
+
+![screenshot](documentation\optimization_and_fixes\validation-test-2.png)
+![screenshot](documentation\optimization_and_fixes\validation-test-1.png)
+
+- Issues fixed and redeployed.
+
+![screenshot](documentation\optimization_and_fixes\success-validation.png)
+
+## CSS Validation
+
+![screenshot](documentation\optimization_and_fixes\css-validation.png)
