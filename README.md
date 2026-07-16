@@ -17,9 +17,13 @@ There will be a page highlighting some of the events this website organizes to h
 
 
 **Site Mockups**
-*([amiresponsive](https://ui.dev/amiresponsive?url=https://lion695.github.io/anchor-and-horizon)
 
-![screenshot](documentation\wireframes\am_i.png)
+Initial design:
+![screenshot](documentation/wireframes/am_i.png)
+
+
+Once deployed:
+![screenshot](documentation/wireframes/deployed-response.png)
 
 
 
@@ -77,7 +81,7 @@ source: [anchor-and-horizon amiresponsive](https://ui.dev/amiresponsive?url=http
 #### 5. Surface
 
 **Visual Design Elements**
-- **[Colours](#colour-scheme)** (see below)
+- **[Colors](#colour-scheme)** (see below)
 - **[Typography](#typography)** (see below)
 
 ### Colour Scheme
@@ -165,7 +169,7 @@ I used [coolors.co](https://coolors.co/0f172a-ffffff-f59e0b) to generate my colo
 
 ## Wireframes
 
-![screenshot](documentation\wireframes\wireframe.png)
+![screenshot](documentation/wireframes/wireframe.png)
 
 ## User Stories
 
