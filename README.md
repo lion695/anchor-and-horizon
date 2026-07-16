@@ -10,9 +10,9 @@ Developer: Kieron Rostill-Fellows ([lion695](https://www.github.com/lion695))
 
 ⚠️ PROJECT INTRODUCTION AND RATIONALE⚠️
 
-This project focuses primarily on men's mental health. Statistically 1 man commits suicide every hour and this site hopes to target those men and show then that there is hope, there is a way out and there is support for them. The site will have links to various other sites of different 'themes', if you will, but the overall focus is mens mental health.
+This project focuses primarily on men's mental health. Statistically 1 man commits suicide every hour and this site hopes to target those men and show them that there is hope, there is a way out and there is support for them. The site will have links to various other sites of different 'themes', if you will, but the overall focus is men's mental health.
 
-There will be a page highlighting some of the events this website organizes to help men who are facing these types of difficulties to meet up and work through it together weather it be through exercise, day trips or talking.
+There will be a page highlighting some of the events this website organizes to help men who are facing these types of difficulties to meet up and work through it together whether it be through exercise, day trips or talking.
 
 
 
@@ -327,7 +327,7 @@ Desktop Features:
 Logo and branding displayed prominently.
 Navigation links provide quick access to key sections.
 Dedicated "Sign Up" call-to-action button.
-![screenshot](documentation\features\navbar-desktop-view.png) Desktop view ⬆️
+![screenshot](documentation/features/navbar-desktop-view.png) Desktop view ⬆️
 
 Mobile Features:
 
@@ -335,17 +335,17 @@ Navigation collapses into a hamburger menu.
 Mobile-friendly layout optimised for smaller screens.
 Easy access to all navigation links.
 Hero Section
-![screenshot](documentation\features\navbar-mobile-view.png) 
+![screenshot](documentation/features/navbar-mobile-view.png) 
 
 Mobile view ⬆️
 
-![screenshot](documentation\features\navbar-tablet-view.png)
+![screenshot](documentation/features/navbar-tablet-view.png)
 
 Tablet view ⬆️
 
 The homepage features a large hero banner designed to immediately communicate the purpose of the website.
 
-![screenshot](documentation\features\hero-example.png)
+![screenshot](documentation/features/hero-example.png)
 
 Features include:
 
@@ -357,7 +357,7 @@ Responsive design for desktop and mobile devices.
 
 About Us Section:
 
-![screenshot](documentation\features\about-us-example.png)
+![screenshot](documentation/features/about-us-example.png)
 
 The About Us section introduces visitors to the purpose and goals of Anchor & Horizon.
 
@@ -366,20 +366,20 @@ Features include:
 Clear overview of the organisation.
 Information regarding the website's mission.
 
-![screenshot](documentation\features\mission-example.png)
+![screenshot](documentation/features/mission-example.png)
 
 Supporting imagery to enhance visual engagement.
 
-![screenshot](documentation\features\reaching-example.avif)
+![screenshot](documentation/features/reaching-example.avif)
 
 Responsive two-column layout on larger screens.
 Men's Mental Health Statistics
 
-![screenshot](documentation\features\two-column-example.png)
+![screenshot](documentation/features/two-column-example.png)
 
 A dedicated section provides information and statistics relating to men's mental health.
 
-![screenshot](documentation\features\stats-example.png)
+![screenshot](documentation/features/stats-example.png)
 
 Features include:
 
@@ -397,13 +397,13 @@ The website provides a curated collection of external support organisations.
 Featured organisations include:
 
 Andy's Man Club
-![screenshot](documentation\features\AMC-example.png)
+![screenshot](documentation/features/AMC-example.png)
 Men's Minds Matter
 ![screenshot](documentation/features/mmm-example.png)
 Fathers Guidance
-![screenshot](documentation\features\fg-example.png)
+![screenshot](documentation/features/fg-example.png)
 Stand Easy
-![screenshot](documentation\features\stand-example.png)
+![screenshot](documentation/features/stand-example.png)
 
 Features include:
 
@@ -428,7 +428,7 @@ Features include:
 
 Custom Anchor & Horizon logo.
 
-![screenshot](documentation\features\logo-example.png)
+![screenshot](documentation/features/logo-example.png)
 
 Navy blue colour palette.
 Gold accent colour for interactive elements.
@@ -447,7 +447,7 @@ Responsive images.
 Optimised viewing experience across desktop, tablet, and mobile devices.
 Accessibility Features
 
-![screenshot](documentation\wireframes\am_i.png)
+![screenshot](documentation/wireframes/am_i.png)
 
 Accessibility considerations have been incorporated throughout the design.
 
@@ -463,13 +463,12 @@ Responsive navigation.
 
 | Feature | Notes | Screenshot |
 | --- | --- | --- |
-| Navbar | Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, and Signup page, and is identical in each page to allow for easy navigation. On the smallest screens, a burger icon is used to toggle the navbar so it doesn't take up too much space. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. The navbar is also `fixed`, so it stays in view even if the user has scrolled to the bottom of the page. | ![screenshot](documentation\features\navbar-desktop-view.png) |
-| Hero Image | The landing includes a photo with text-overlay to allow the user to see exactly which location this site would be applicable to. This section introduces the user to Anchor & Horizon with an eye-catching animation to grab their attention. | ![screenshot](documentation\features\hero-example.png) |
-|
-| Schedule | This section will allow the user to see exactly when the meetups will happen, where they will be located, and how long the run will be (in kilometers). The type of run (trail or road) is also shown, to help runners choose the meetups that best match their preference. This section will be updated as these times change to keep the user up to date. | ![screenshot](documentation\features\schedule-example.png) |
-| Footer | The footer includes links to the relevant social media sites for Anchor & Horizon. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user, as it encourages them to keep connected via social media. | ![screenshot](documentation\features\footer-example.png) |
-| Signup | This page will allow the user to sign up to Anchor & Horizon's monthly newsletter The user will be asked to submit their full name, number and email address. | ![screenshot](documentation\features\signup-example.png) |
-| Confirmation | The confirmation page will give the illusion that the signup form was submitted successfully to the Anchor & Horizon newsletter. Due to the lack of a database or email system so far, this is a fake confirmation page. | ![screenshot](documentation\features\success-example.png) |
+| Navbar | Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, and Signup page, and is identical in each page to allow for easy navigation. On the smallest screens, a burger icon is used to toggle the navbar so it doesn't take up too much space. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. The navbar is also `fixed`, so it stays in view even if the user has scrolled to the bottom of the page. | ![screenshot](documentation/features/navbar-desktop-view.png) |
+| Hero Image | The landing includes a photo with text-overlay to allow the user to see exactly which location this site would be applicable to. This section introduces the user to Anchor & Horizon with an eye-catching animation to grab their attention. | ![screenshot](documentation/features/hero-example.png) |
+| Schedule | This section will allow the user to see exactly when the meetups will happen, where they will be located, and how long the run will be (in kilometers). The type of run (trail or road) is also shown, to help runners choose the meetups that best match their preference. This section will be updated as these times change to keep the user up to date. | ![screenshot](documentation/features/schedule-example.png) |
+| Footer | The footer includes links to the relevant social media sites for Anchor & Horizon. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user, as it encourages them to keep connected via social media. | ![screenshot](documentation/features/footer-example.png) |
+| Signup | This page will allow the user to sign up to Anchor & Horizon's monthly newsletter. The user will be asked to submit their full name, number and email address. | ![screenshot](documentation/features/signup-example.png) |
+| Confirmation | The confirmation page will give the illusion that the signup form was submitted successfully to the Anchor & Horizon newsletter. Due to the lack of a database or email system so far, this is a fake confirmation page. | ![screenshot](documentation/features/success-example.png) |
 
 ### Future Features
 
@@ -503,9 +502,9 @@ Planned Enhancements
 
 ### GitHub Projects
 
-![screenshot](documentation\project-board\board_pic_2.png)
-![screenshot](documentation\project-board\nav_pic.png)
-![screenshot](documentation\project-board\board_pic_1.png)
+![screenshot](documentation/project-board/board_pic_2.png)
+![screenshot](documentation/project-board/nav_pic.png)
+![screenshot](documentation/project-board/board_pic_1.png)
 
 [GitHub Projects](https://www.github.com/lion695/anchor-and-horizon/projects) served as an Agile tool for this project. Through it, EPICs, User Stories, issues/bugs, and Milestone tasks were planned, then subsequently tracked on a regular basis using the Kanban project board.
 
@@ -513,12 +512,12 @@ Planned Enhancements
 
 ### GitHub Issues
 
-[GitHub Issues](https://www.github.com/lion695/anchor-and-horizon/issues) served as an another Agile tool. There, I managed my User Stories and Milestone tasks, and tracked any issues/bugs.
+[GitHub Issues](https://www.github.com/lion695/anchor-and-horizon/issues) served as another Agile tool. There, I managed my User Stories and Milestone tasks, and tracked any issues/bugs.
 
 | Link | Screenshot |
 | --- | --- |
-| [![GitHub issues](https://img.shields.io/github/issues-search/lion695/anchor-and-horizon?query=is%3Aissue%20is%3Aopen%20-label%3Abug&label=Open%20Issues&color=yellow)](https://www.github.com/lion695/anchor-and-horizon/issues?q=is%3Aissue%20is%3Aopen%20-label%3Abug) | ![screenshot](documentation\project-board\board_pic_2.png) |
-| [![GitHub closed issues](https://img.shields.io/github/issues-search/lion695/anchor-and-horizon?query=is%3Aissue%20is%3Aclosed%20-label%3Abug&label=Closed%20Issues&color=green)](https://www.github.com/lion695/anchor-and-horizon/issues?q=is%3Aissue%20is%3Aclosed%20-label%3Abug) | ![screenshot](documentation\project-board\board_pic_1.png) |
+| [![GitHub issues](https://img.shields.io/github/issues-search/lion695/anchor-and-horizon?query=is%3Aissue%20is%3Aopen%20-label%3Abug&label=Open%20Issues&color=yellow)](https://www.github.com/lion695/anchor-and-horizon/issues?q=is%3Aissue%20is%3Aopen%20-label%3Abug) | ![screenshot](documentation/project-board/board_pic_2.png) |
+| [![GitHub closed issues](https://img.shields.io/github/issues-search/lion695/anchor-and-horizon?query=is%3Aissue%20is%3Aclosed%20-label%3Abug&label=Closed%20Issues&color=green)](https://www.github.com/lion695/anchor-and-horizon/issues?q=is%3Aissue%20is%3Aclosed%20-label%3Abug) | ![screenshot](documentation/project-board/board_pic_1.png) |
 
 ### MoSCoW Prioritization
 
@@ -669,5 +668,5 @@ A few examples have been provided below to give you some ideas on how to do your
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) and [Code Institute Discord community](https://discord-portal.codeinstitute.net) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
 - I would like to thank my partner, for believing in me, and allowing me to make this transition into software development.
 
-- I would like to acknowledge the number of MALE friends and family I have personally lost as the inspiration for this project, it was in remembering them that Mens mental health became the focus of the page.
+- I would like to acknowledge the number of male friends and family I have personally lost as the inspiration for this project; it was in remembering them that men's mental health became the focus of the page.
 
