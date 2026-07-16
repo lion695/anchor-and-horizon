@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    padding-top: 145px;
+    padding-top: clamp(105px, 12vw, 145px);
     overflow-x: hidden;
     background-color: #FFFFFF;
 }
@@ -21,7 +21,11 @@ body {
 #services:target,
 #contact:target,
 #site-footer:target,
-#about:target {
+#about:target,
+#events:target,
+#testimonials:target,
+#signup:target,
+#top:target {
     scroll-margin-top: 80px;
 }
 
@@ -62,7 +66,7 @@ nav.custom-navbar,
 }
 
 .nav-title {
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 1.35vw, 1.25rem);
     color: var(--text-color);
     font-weight: 600;
     white-space: nowrap;
@@ -70,7 +74,7 @@ nav.custom-navbar,
 }
 
 .navbar-brand img {
-    height: 115px;
+    height: clamp(60px, 8vw, 115px);
     width: auto;
 }
 
@@ -120,7 +124,7 @@ nav.custom-navbar,
 /* Hero */
 .hero-section {
     position: relative;
-    min-height: 70vh;
+    min-height: clamp(38vh, 62vh, 70vh);
     width: 100%;
     display: flex;
     align-items: center;
@@ -152,26 +156,27 @@ nav.custom-navbar,
     position: relative;
     z-index: 2;
     max-width: 900px;
-    padding: 1rem;
+    padding: clamp(0.75rem, 2vw, 1.5rem);
 }
 
 .hero-content h1 {
-    font-size: 2rem;
+    font-size: clamp(1.1rem, 2.8vw, 2rem);
     font-weight: 700;
+    line-height: 1.15;
     margin-bottom: 1rem;
 }
 
 .hero-content p {
-    font-size: 1.125rem;
+    font-size: clamp(0.9rem, 1.4vw, 1.125rem);
     margin-bottom: 1rem;
 }
 
 /* Events */
 #events {
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 40px 24px;
+    padding: clamp(24px, 4vw, 40px) clamp(12px, 2.5vw, 24px);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -179,7 +184,7 @@ nav.custom-navbar,
 }
 
 #events .table {
-    font-size: 0.75rem;
+    font-size: clamp(0.75rem, 1vw, 0.95rem);
 }
 
 /* Services */
@@ -190,8 +195,8 @@ nav.custom-navbar,
 }
 
 #services .card-img-wrapper {
-    height: clamp(160px, 18vw, 220px);
-    padding: 1rem;
+    height: clamp(140px, 18vw, 220px);
+    padding: clamp(0.75rem, 1.5vw, 1rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,7 +215,7 @@ nav.custom-navbar,
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    min-height: 220px;
+    min-height: clamp(180px, 22vw, 260px);
 }
 
 #services .card-text {
@@ -233,12 +238,12 @@ nav.custom-navbar,
     box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
     max-width: 900px;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: clamp(1rem, 2vw, 1.5rem);
 }
 
 .testimonial-img {
-    width: 200px;
-    height: 200px;
+    width: clamp(96px, 16vw, 200px);
+    height: clamp(96px, 16vw, 200px);
     padding: 0.25rem;
     object-fit: cover;
     border: 4px solid var(--background-color);
@@ -305,51 +310,14 @@ nav.custom-navbar,
 
 /* Responsive */
 @media (max-width: 1200px) {
-    body {
-        padding-top: 135px;
-    }
-
-    .navbar-brand img {
-        height: 95px;
-    }
-
-    .nav-title {
-        font-size: 20px;
-    }
-
-    .hero-section {
-        min-height: 62vh;
-    }
-
-    .hero-content h1 {
-        font-size: 1.75rem;
-    }
-
     #services .card-body {
         min-height: 260px;
-    }
-
-    .testimonial-img {
-        width: 180px;
-        height: 180px;
     }
 }
 
 @media (max-width: 992px) {
-    body {
-        padding-top: 125px;
-    }
-
     .navbar .container {
         flex-wrap: wrap;
-    }
-
-    .navbar-brand img {
-        height: 85px;
-    }
-
-    .nav-title {
-        font-size: 18px;
     }
 
     .navbar-collapse {
@@ -359,22 +327,6 @@ nav.custom-navbar,
 
     .navbar-nav {
         align-items: flex-start;
-    }
-
-    .hero-section {
-        min-height: 55vh;
-    }
-
-    .hero-content {
-        padding: 1.5rem;
-    }
-
-    .hero-content h1 {
-        font-size: 1.55rem;
-    }
-
-    .hero-content p {
-        font-size: 1rem;
     }
 
     #events {
@@ -388,47 +340,9 @@ nav.custom-navbar,
     #services .card-body {
         min-height: 220px;
     }
-
-    .testimonial-card {
-        padding: 1.25rem;
-    }
-
-    .testimonial-img {
-        width: 150px;
-        height: 150px;
-    }
 }
 
 @media (max-width: 768px) {
-    body {
-        padding-top: 115px;
-    }
-
-    .navbar-brand img {
-        height: 72px;
-    }
-
-    .nav-title {
-        font-size: 16px;
-    }
-
-    .hero-section {
-        min-height: 50vh;
-    }
-
-    .hero-content {
-        padding: 1rem;
-    }
-
-    .hero-content h1 {
-        font-size: 1.35rem;
-        line-height: 1.2;
-    }
-
-    .hero-content p {
-        font-size: 0.95rem;
-    }
-
     #events {
         padding: 28px 16px;
     }
@@ -446,39 +360,11 @@ nav.custom-navbar,
         padding: 1rem;
     }
 
-    .testimonial-card {
-        padding: 1rem;
-    }
-
-    .testimonial-img {
-        width: 130px;
-        height: 130px;
-    }
 }
 
 @media (max-width: 576px) {
-    body {
-        padding-top: 105px;
-    }
-
     .nav-title {
         display: none;
-    }
-
-    .navbar-brand img {
-        height: 60px;
-    }
-
-    .hero-section {
-        min-height: 42vh;
-    }
-
-    .hero-content h1 {
-        font-size: 1.2rem;
-    }
-
-    .hero-content p {
-        font-size: 0.9rem;
     }
 
     .btn-signup {
@@ -499,11 +385,6 @@ nav.custom-navbar,
         padding: 0.75rem;
     }
 
-    .testimonial-img {
-        width: 110px;
-        height: 110px;
-    }
-
     .footer-title,
     .footer-text,
     .footer-links,
@@ -513,20 +394,7 @@ nav.custom-navbar,
 }
 
 @media (max-width: 400px) {
-    .hero-section {
-        min-height: 38vh;
-    }
-
-    .hero-content h1 {
-        font-size: 1.05rem;
-    }
-
     #services .card-img-wrapper {
         height: 140px;
-    }
-
-    .testimonial-img {
-        width: 96px;
-        height: 96px;
     }
 }
