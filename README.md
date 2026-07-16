@@ -159,14 +159,8 @@ I used [coolors.co](https://coolors.co/0f172a-ffffff-f59e0b) to generate my colo
 
 ### Typography
 
-⚠️ INSTRUCTIONS ⚠️
 
-Explain any fonts and icon libraries used, like **Google Fonts**, **Font Awesome**, etc. Consider adding a link to each font used, the Font Awesome site (if used), or similar icon library.
 
-⚠️ --- END --- ⚠️
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 ## Wireframes
@@ -638,7 +632,6 @@ There are no remaining major differences between the local version when compared
 
 ⚠️ INSTRUCTIONS ⚠️
 
-Use this space to provide attribution links to any media files borrowed from elsewhere (images, videos, audio, etc.). If you're the owner (or a close acquaintance) of some/all media files, then make sure to specify this information. Let the assessors know that you have explicit rights to use the media files within your project. Ideally, you should provide an actual link to every media file used, not just a generic link to the main site, unless it's AI-generated artwork.
 
 Looking for some media files? Here are some popular sites to use. The list of examples below is by no means exhaustive.
 
@@ -672,5 +665,5 @@ A few examples have been provided below to give you some ideas on how to do your
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) and [Code Institute Discord community](https://discord-portal.codeinstitute.net) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
 - I would like to thank my partner, for believing in me, and allowing me to make this transition into software development.
 
-- I would like to acknowledge the number of MALE friends and family I have personally lost as the inspiration for this project, it was in thinking of them that Mens mental health became the focus of the page.
+- I would like to acknowledge the number of MALE friends and family I have personally lost as the inspiration for this project, it was in remembering them that Mens mental health became the focus of the page.
 

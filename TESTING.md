@@ -1,31 +1,78 @@
-Testing and fixing.
+## Performance Testing and Fixes
 
-![screenshot](documentation/optimization_and_fixes/low_performance_example.png)
+### Initial Lighthouse Results
 
-The first issue I ran into was this low performance score. I ran the lighthouse test and then ran a query using the intergrated AI model for suggestions.
+During testing, Lighthouse reported a relatively low Performance score of **83**.
 
-One of the suggestions was to change my color styling for the buttons and to apply similar changes to my footer.
+![Lighthouse Performance Score](documentation/optimization_and_fixes/low_performance_example.png)
 
-![screenshot](documentation/optimization_and_fixes/styling_fix_acessability.png)
+To investigate the issue, I reviewed the Lighthouse recommendations and used the integrated AI assistant to identify potential improvements.
 
-![screenshot](documentation/optimization_and_fixes/btn_styling_fix.png)
+---
 
-![screenshot](documentation/optimization_and_fixes/footer_links_fix.png)
+### Accessibility Improvements
 
-![screenshot](documentation/optimization_and_fixes/btt_fix.png)
+One of the recommendations highlighted colour contrast issues affecting accessibility. To address this, I updated the styling of several interactive elements throughout the site, including:
 
-![screenshot](documentation/optimization_and_fixes/btt_fix_focus.png)
+- Navigation and action buttons
+- Footer links
+- Back-to-top button
+- Form submit button
 
-I also made a color styling changes to my form submit button to keep the consistency throughout the site and to stay true to the overall feel.
+These changes improved colour contrast ratios and enhanced keyboard focus visibility, helping users navigate the site more effectively.
 
-![screenshot](documentation/optimization_and_fixes/submit_btn_fix.png)
+#### Button Styling Improvements
 
-This helped the overall Accessability score but it didn't yield much in the way of improving the overall performance score of 83.
+![Button Styling Fix](documentation/optimization_and_fixes/btn_styling_fix.png)
 
-Finally it dawned on me that because I had created my hero image using Chat GPT that therein could lie the issue. 
+#### Accessibility Colour Adjustments
 
-I returned to Chat GPT and optimized the image so as not to lose any quality but for better rendering on the page.
+![Accessibility Styling Fix](documentation/optimization_and_fixes/styling_fix_acessability.png)
 
-![screenshot](documentation/optimization_and_fixes/fix_after_optimizing.png)
+#### Footer Link Improvements
 
-This boosted the performance score dramatically to a far more respectable 97.
+![Footer Links Fix](documentation/optimization_and_fixes/footer_links_fix.png)
+
+#### Back-to-Top Button Improvements
+
+![Back-to-Top Button Fix](documentation/optimization_and_fixes/btt_fix.png)
+
+#### Back-to-Top Button Focus State
+
+![Back-to-Top Button Focus State](documentation/optimization_and_fixes/btt_fix_focus.png)
+
+#### Form Submit Button Consistency Update
+
+To maintain a consistent design language across the site, the form submit button was also updated to match the revised styling.
+
+![Submit Button Fix](documentation/optimization_and_fixes/submit_btn_fix.png)
+
+While these accessibility improvements increased the Accessibility score, they had only a minor impact on the overall Performance score.
+
+---
+
+### Hero Image Optimisation
+
+After further investigation, I realised the hero image could be contributing significantly to the reduced performance score. The image had originally been generated using ChatGPT and, while visually effective, had not been optimised for web delivery.
+
+The image was reprocessed and converted into a more efficient format while maintaining visual quality. This reduced the file size considerably and improved loading performance.
+
+---
+
+### Final Lighthouse Results
+
+Following the hero image optimisation, the site's Lighthouse Performance score increased from **83** to **97**.
+
+![Improved Lighthouse Score](documentation/optimization_and_fixes/fix_after_optimizing.png)
+
+### Outcome
+
+The testing process highlighted the importance of both accessibility and image optimisation:
+
+- Improved colour contrast across interactive elements.
+- Enhanced keyboard focus visibility.
+- Maintained consistent visual styling throughout the site.
+- Reduced hero image file size without noticeable quality loss.
+- Increased Lighthouse Performance score from **83** to **97**.
+
+This optimisation significantly improved the overall user experience by reducing page load times and increasing Lighthouse performance metrics.
